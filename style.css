@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.colors {
+    color: #ffffff;
+}
+
+/*########### Header start ###########*/
+header {
+    background-color: rgba(251, 252, 253, 0.877);
+    display: flex;
+    justify-content: space-around;
+    min-height: 12vh;
+    align-items: center;
+
+}
+
+header .logoweb img {
+    align-items: center;
+    padding-top: 4px;
+}
+
+header #navbar {
+    align-items: center;
+}
+
+header #navbar ul {
+    /* align-items: center; */
+    display: flex;
+}
+
+header #navbar ul li {
+    list-style: none;
+    padding: 1px 50px 0px 0px;
+}
+
+header #navbar ul li a {
+    text-decoration: none;
+    color: #222;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    transition: all 0.5s;
+}
+
+header #navbar ul li a:hover {
+    color: #f61b55;
+    font-weight: 600;
+}
+.btn button {
+    color: #ffffff;
+    background-color: #f61b55;
+    padding: 13px 24px;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+.btn button:hover {
+    color: #222;
+    border: 1px solid #f61b55;
+    background-color: transparent;
+    font-weight: 600;
+}
+
+/*########### Header end ###########*/
+
+
+
+
+/*########### Home start ###########*/
+.contanier {
+    background-image: url("./img/banner-bg.jpg.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+}
+
+.contanier .headinghomesection{
+    font-size: 90px;
+    line-height: 77px;
+    text-transform: uppercase;
+    font-family: "Roboto",sans-serif;
+    padding: 100px 0px 0px 555px;
+}
+.contanier .btn2{
+    text-transform: uppercase;
+    font-family: "Roboto",sans-serif;
+    margin: 65px 0px 0px 555px;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+}
+.contanier .btn2:hover{
+ color:white;
+ font-weight: 600;
+}
+/*########### Home end ###########*/
+
+
+/*########### Footer strat ###########*/
+.foot .name{
+    padding: 15px;
+    text-transform: uppercase;
+    font-family: "Roboto",sans-serif;
+    font-size: 30px;
+    color: #000000;
+}
+.foot .icons{
+    display:flex;
+    padding: 0px 30px;
+    text-align: center;
+    margin: -35px 245px;
+}
+.whatsapp{
+    padding: 0px 30px;
+}
+.Facebook{
+    padding: 0px 30px;
+}
+.twitter{
+    padding: 0px 30px;
+}
+.instagram{
+    padding: 0px 30px;
+}
+.youtube{
+    padding: 0px 30px;
+}
+.logo-whatsapp:hover{
+background-color: greenyellow;
+}
+.logo-Facebook:hover{
+    background-color: rgb(24, 32, 150);
+}
+.logo-twitter:hover{
+    background-color: rgb(24, 32, 150);
+}
+.logo-instagram:hover{
+    background-color: rgb(189, 47, 255);
+}
+.logo-youtube:hover{
+    background-color: rgb(230, 64, 64);
+}
+/*########### Footer end ###########*/
